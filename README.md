@@ -1,7 +1,7 @@
 # Taiwan-AgriSimulation-Mapping
 An agricultural anlysis with goverment's Open Data for Harmony framework ( monthly fruits/vegetables/crop in season data, weather history, yield histroy)
 
-# 台灣農業開放資料 Mapping 與 Analysis
+# 台灣農業開放資料 Summary
 
 ## 目的
 1. 建立 AgriHarmony Framework 核心 Soil-Atmosphere-Plant Simulation做氣候資料收集
@@ -9,25 +9,43 @@ An agricultural anlysis with goverment's Open Data for Harmony framework ( month
 
 ## 資料源頭
 
-每月作物生產表
-http://data.coa.gov.tw/Query/ServiceDetail.aspx?id=061
+### 氣象資料 Climate and Weather
 
-每日氣象
+#### 每日氣象 Daily Weather
 http://opendata.cwb.gov.tw/statisticlist
 (等待尋找長期歷史資料)
 
-農產品交易行情
+#### 大氣水文研究資料庫
+https://dbahr.narlabs.org.tw/
+
+### 市場與價格
+#### 農產品交易行情
 http://data.coa.gov.tw/Query/ServiceDetail.aspx?id=037
 
+
+### 作物病蟲害
 植物疫情
 http://data.coa.gov.tw/Query/ServiceDetail.aspx?id=047
 
-農情調查
-http://data.coa.gov.tw/Query/ServiceDetail.aspx?id=038
-
-產銷履歷(作為採樣點)
-http://data.coa.gov.tw/Query/ServiceDetail.aspx?id=063
 
 ### 土壤
 農地空間圖(土壤調查)
 http://data.coa.gov.tw/Query/ServiceDetail.aspx?id=051
+
+### 生產相關
+產銷履歷(作為採樣點)
+http://data.coa.gov.tw/Query/ServiceDetail.aspx?id=063
+
+每月作物生產表
+http://data.coa.gov.tw/Query/ServiceDetail.aspx?id=061
+
+### 其他
+#### 農情調查
+http://data.coa.gov.tw/Query/ServiceDetail.aspx?id=038
+
+# 服務範例 Service Example
+
+## 蔬果交易終端機
+http://muyueh.com/30/veggie_c/list.html
+
+統計從1996年以來，台灣蔬果價錢的趨勢與變動，搭配颱風重大氣象災害對照 
